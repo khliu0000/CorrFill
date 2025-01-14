@@ -1,0 +1,20 @@
+{
+    "baseline": "leftrefill",
+    "val_set": "realestate",
+    "dominant_filter": true,
+    "smoothing": true,
+    "attn_masking": true,
+    "latent_optimize": true,
+    "str_masking": 1,
+    "str_optimize": 0.5,
+    "random_seed": 42,
+    "step_masking": 5,
+    "step_optimize": 50,
+    "mask_window": -0.3,
+    "mask_boost": 1,
+    "smooth_window": 0.05,
+    "vote_blocks": [
+        7,
+        15
+    ]
+}

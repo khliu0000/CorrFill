@@ -1,0 +1,20 @@
+{
+    "baseline": "paintbyexample",
+    "val_set": "realestate",
+    "dominant_filter": true,
+    "smoothing": true,
+    "attn_masking": true,
+    "latent_optimize": true,
+    "str_masking": 1,
+    "str_optimize": 2,
+    "random_seed": 42,
+    "step_masking": 50,
+    "step_optimize": 50,
+    "mask_window": 4,
+    "mask_boost": 1,
+    "smooth_window": 0.4,
+    "vote_blocks": [
+        10,
+        14
+    ]
+}

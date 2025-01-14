@@ -1,0 +1,20 @@
+{
+    "baseline": "ipadapterplus",
+    "val_set": "megadepth",
+    "dominant_filter": true,
+    "smoothing": true,
+    "attn_masking": true,
+    "latent_optimize": true,
+    "str_masking": 1,
+    "str_optimize": 0.5,
+    "random_seed": 42,
+    "step_masking": 25,
+    "step_optimize": 50,
+    "mask_window": 5,
+    "mask_boost": 1,
+    "smooth_window": 0.2,
+    "vote_blocks": [
+        7,
+        15
+    ]
+}
