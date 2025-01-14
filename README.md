@@ -13,7 +13,7 @@ Kuan-Hung Liu<sup>1</sup>,
 <sup>1</sup>National Yang Ming Chiao Tung University, <sup>2</sup>National Taiwan University, <sup>3</sup>NVIDIA<br>
 (\*Now at MediaTek Inc., Taiwan.)
 
-[[`Paper`](https://arxiv.org/)] [[`Website`](https://corrfill.github.io/)] [[`BibTeX`](#citation)] [[`WACV'25 Poster`]()]
+[[`Paper`](https://arxiv.org/pdf/2501.02355)] [[`Website`](https://corrfill.github.io/)] [[`BibTeX`](#citation)] [[`WACV'25 Poster`]()]
 
 This work introduces **CorrFill**, a training-free module designed to enhance the faithfulness of reference-based image inpainting in diffusion models. CorrFill guides the inpainting process with correspondence between the reference and target images, estimated during the inpainting process, by constraining the inpainting process of diffusion models through self-attention masking and input latent optimization. We conduct experiments on RealEstate10K and MegaDepth with four different baseline diffusion models, which demonstrate higher faithfulness in both quantitative and qualitative results.  
 
